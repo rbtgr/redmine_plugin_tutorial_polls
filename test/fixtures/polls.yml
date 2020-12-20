@@ -1,0 +1,6 @@
+---
+polls_001:
+  id: 1
+  question: hoge
+  'yes': 0
+  'no': 0

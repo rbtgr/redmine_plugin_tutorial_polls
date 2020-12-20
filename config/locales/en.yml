@@ -1,0 +1,5 @@
+# English strings go here for Rails i18n
+"en":
+  permission_view_polls: View Polls
+  permission_vote_polls: Vote Polls
+  label_poll: Polls

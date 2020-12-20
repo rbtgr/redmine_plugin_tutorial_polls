@@ -1,0 +1,25 @@
+<table>
+  <tbody>
+    <tr>
+      <th>Notification Default Address</th>
+      <td>
+        <input
+          type="text"
+          id="settings_notification_default"
+          value="<%= settings['notification_default'] %>"
+          name="settings[notification_default]" >
+      </td>
+    </tr>
+    <tr>
+      <th>check</th>
+      <td>
+        <input
+          type="checkbox" id="settings_check"
+          value="true"
+          name="settings[check]"
+          <%= if settings['check'] == "true" then "checked" end %>
+          >
+      </td>
+    </tr>
+  </tbody>
+</table>
